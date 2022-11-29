@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.nav-ul {
+  padding: 5px;
+  margin: 5px;
+  background-color: #dd0000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-ul li a {
   color: white;
+  padding: 5px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reg-div {
+  display: inline-grid;
+  margin-left: 38%;
+  margin-top: 6%;
+  border: 2px solid #dd0000;
+  border-radius: 5%;
+  border-width: 15px;
+  background-color: #dd0000;
+}
+
+.reg-div span{
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.reg-div-label {
+  display: block;
+  margin: 20px;
+  padding: 8px;
+  width: 250px;
+  border-radius: 7px;
+  text-decoration: solid;
+}
+
+.login-div {
+  display: inline-grid;
+  margin-left: 38%;
+  margin-top: 7%;
+  border: 2px solid #dd0000;
+  border-radius: 5%;
+  border-width: 15px;
+  background-color: #dd0000;
+}
+
+.login-div span{
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.login-div-label {
+  display: block;
+  margin: 20px;
+  padding: 8px;
+  width: 250px;
+  border-radius: 7px;
+  text-decoration: solid;
+}
+
+.sub-btn {
+  margin: 3px;
+  padding: 7px;
+  width: 100px;
+  background-color: ghostwhite;
+  border: 2.5px solid;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sub-btn span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
