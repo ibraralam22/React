@@ -1,0 +1,42 @@
+.footer-container {
+  background-color: #289157;
+  color: rgb(245, 255, 100);
+  padding: 10px;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Your Big Bold Font', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 2rem; 
+  color: #289157;
+  margin: 0 10px;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.social-icon svg {
+  color: white; 
+}
+
+.social-icon:hover {
+  background-color: #ffffff; 
+}
